@@ -63,3 +63,6 @@ LLM이 자동 생성한 디자인 패턴 Wiki 문서가 저장되는 폴더입�
 
 ### Behavioral Patterns (행동 패턴)
 - Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor
+
+### Other Patterns (기타 패턴)
+- Registry, Event Bus
