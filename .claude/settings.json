@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "The file at $ARGUMENTS was just created or modified. Check if this change affects the project structure (new folders, new files, renamed files, deleted files, config changes, new dependencies). If it does, remind the assistant to also update CLAUDE.md, README.md, and pyproject.toml to reflect the change. If the changed file is CLAUDE.md, README.md, or pyproject.toml itself, no reminder is needed."
+          }
+        ]
+      }
+    ]
+  }
+}
