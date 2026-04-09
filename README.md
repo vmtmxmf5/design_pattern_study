@@ -93,9 +93,9 @@ LLM이 생성한 디자인 패턴 문서가 리뷰를 거치는 폴더입니다.
 
 | 분류 | 패턴 | 예제 |
 |------|------|------|
-| 생성 | Builder, Factory, Singleton | `builder_example.py`, `factory_example.py`, `singleton_example.py` |
+| 생성 | Abstract Factory, Builder, Factory, Prototype, Singleton | `abstract_factory_example.py`, `builder_example.py`, `factory_example.py`, `prototype_example.py`, `singleton_example.py` |
 | 구조 | Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy | `adapter_example.py`, `bridge_example.py`, `composite_example.py`, `decorator_example.py`, `facade_example.py`, `flyweight_example.py`, `proxy_example.py` |
-| 행동 | Command, Iterator, Mediator, Memento, Template Method, Visitor | `command_example.py`, `iterator_example.py`, `mediator_example.py`, `memento_example.py`, `template_method_example.py`, `visitor_example.py` |
+| 행동 | Chain of Responsibility, Command, Iterator, Mediator, Memento, Template Method, Visitor | `chain_of_responsibility_example.py`, `command_example.py`, `iterator_example.py`, `mediator_example.py`, `memento_example.py`, `template_method_example.py`, `visitor_example.py` |
 | 기타 | Event Bus, Registry | `event_bus_example.py`, `registry_example.py` |
 
 ### 비교 문서 (`under_review/`)
