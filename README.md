@@ -4,7 +4,7 @@ LLM 기반 Wiki 방식의 디자인 패턴 스터디 자료 관리 프로젝트
 
 ## Overview
 
-디자인 패턴을 학습하고, LLM을 활용하여 각 패턴에 대한 설명 자료(Markdown)를 자동 생성하는 시스템입니다.
+디자인 패턴을 학습하고, 각 패턴에 대한 설명 자료와 실행 가능한 Python 예제를 관리하는 프로젝트입니다.
 
 ## Getting Started
 
@@ -40,7 +40,7 @@ design_pattern_study/
 ├── CLAUDE.md
 ├── pyproject.toml
 ├── project_knowledge/   # 검토 완료된 스터디 노트
-├── generated_docs/      # LLM 생성 문서 (검토 대기)
+├── under_review/      # LLM 생성 문서 (검토 대기)
 ├── src/examples/        # 패턴별 실행 가능한 예제 코드
 └── tests/               # 예제 실행 검증 테스트
 ```
@@ -49,9 +49,9 @@ design_pattern_study/
 
 검토가 완료된 디자인 패턴 학습 자료를 관리하는 폴더입니다.
 
-### `generated_docs/` - 검토 대기 문서
+### `under_review/` - 리뷰 진행중
 
-LLM이 자동 생성한 디자인 패턴 Wiki 문서가 저장되는 폴더입니다. 검토 후 `project_knowledge/`로 이동합니다.
+LLM이 생성한 디자인 패턴 문서가 리뷰를 거치는 폴더입니다. 검토 완료 후 `project_knowledge/`로 이동합니다.
 
 ### `src/examples/` - 예제 코드
 
