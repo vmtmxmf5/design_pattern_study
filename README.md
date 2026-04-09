@@ -28,8 +28,8 @@ uv pip install -r requirements.txt
 
 ## Features
 
-- 디자인 패턴별 Wiki 스타일 문서 자동 생성
 - LLM을 활용한 패턴 설명, 예제 코드, 사용 사례 생성
+- 패턴별 실행 가능한 Python 예제 코드 제공
 - Markdown 기반 스터디 자료 관리
 
 ## Structure
