@@ -16,3 +16,7 @@ LLM Wiki 방식 디자인 패턴 스터디.
 - 예제 코드 수정 시 `python3 -m pytest tests/test_examples.py`로 검증할 것
 - 프로젝트 구조나 설정 변경 시 반드시 사용자에게 확인을 받을 것
 - 변경 사항이 있으면 `CLAUDE.md`, `README.md`, `pyproject.toml`도 함께 업데이트할 것
+- `project_knowledge/`에 이미 있는 검토 완료 문서는 절대 수정 금지
+- 문서 최대 길이: 200줄 이하
+- 외부 라이브러리 사용 지양, 표준 라이브러리 우선
+- 타겟 독자: 주니어 개발자 수준 (쉬운 용어, 어려운 표현 풀어쓰기)

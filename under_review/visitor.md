@@ -27,7 +27,7 @@
 
 ## Python 예제
 
-→ `src/examples/visitor_example.py` (작성 예정)
+→ `src/examples/visitor_example.py`
 
 ## 주의할 점
 

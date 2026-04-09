@@ -28,7 +28,7 @@
 
 ## Python 예제
 
-→ `src/examples/flyweight_example.py` (작성 예정)
+→ `src/examples/flyweight_example.py`
 
 ## 주의할 점
 
