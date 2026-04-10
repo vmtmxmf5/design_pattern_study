@@ -236,6 +236,21 @@ def handle_event(event):
 
 ## 4단계: handleSubtask() → task_tool → prompt() — sub agent 재귀
 
+### sub agent 호출도 tool call이다
+
+LLM이 sub agent를 부르는 것도 일반 도구 호출과 **똑같은 tool call**이다.
+`task`라는 도구를 호출하면 그게 subtask로 등록되고, run_loop에서 꺼내서 실행한다.
+
+```python
+# LLM 응답 — 일반 도구 호출
+{"tool": "read", "parameters": {"filePath": "/a.ts"}}
+
+# LLM 응답 — sub agent 호출 (이것도 tool call!)
+{"tool": "task", "parameters": {"prompt": "API 찾아줘", "subagent_type": "explore"}}
+```
+
+다만 `task` 도구는 실행할 때 새 세션을 만들고 `prompt()`를 재귀 호출한다는 점만 다르다.
+
 파일: `packages/opencode/src/session/prompt.ts:552`
 
 ```typescript
